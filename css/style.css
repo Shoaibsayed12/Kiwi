@@ -102,11 +102,18 @@ nav .mainMenu .closeMenu , .icons i {
     font-family: 'Lato', sans-serif;
 
 }
-.nav2 ul li a:hover{
+/* .nav2 ul li a:hover{
     text-decoration: underline;
     color: #c9a35a;
 
+} */
+#tabs li a:hover, #tabs li a.inactive:hover {
+
+
+    text-decoration: underline;
+    color: #c9a35a;
 }
+
 .nav2 ul li {
     list-style: none;
 
